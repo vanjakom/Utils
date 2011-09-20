@@ -1,0 +1,10 @@
+Requirements:
+
+This project is based on http://code.google.com/p/thumbnailator/ Thumbnailer service.
+
+I use maven as build system so you need to download JAR from website and install it via:
+
+mvn install:install-file -Dfile=thumbnailator-0.3.10.jar -DgroupId=net.coobird -DartifactId=thumbnailator -Dversion=0.3.10 -Dpackaging=jar
+
+Also, change version number to your downloaded version.
+
