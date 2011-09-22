@@ -41,6 +41,8 @@ public class TerminalResizer {
             Image image = imageIcon.getImage();
             BufferedImage bufferedImage = new BufferedImage(image.getWidth(null),
                     image.getHeight(null), BufferedImage.TYPE_INT_ARGB);
+            Graphics g = bufferedImage.getGraphics();
+            g.drawImage(image, 0, 0, null);
 
             int resizedWidth = 0;
             int resizedHeight = 0;

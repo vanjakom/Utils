@@ -2,7 +2,8 @@ Usage:
 
 I plan to use this utility in following scenario. Offten I need to resize pictures I want to send to people, so I'd like to find picture in File Manager right click on it and resize it to some default folder. I will use it on Ubuntu but it can be used on Mac and Windows too.
 
-
+So, to setup all. Choose some jpg picture, right click, select Open With, Other application… Choose custom command. Enter path to sh script given in bin/image_resize.sh folder of JavaImagerResize.
+After that, edit bin/image_resize.sh to reflect your paths.
 
 Requirements:
 
@@ -13,6 +14,4 @@ I use maven as build system so you need to download Thumbailer JAR from website 
 mvn install:install-file -Dfile=thumbnailator-0.3.10.jar -DgroupId=net.coobird -DartifactId=thumbnailator -Dversion=0.3.10 -Dpackaging=jar
 
 Also, change version number to your downloaded version.
-
-
 
